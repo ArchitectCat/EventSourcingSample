@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lpPngil0/VitMo86c9pGyKXeFtRdHOh1FKu7AN2mvf+YQLdu0os0BksjoEGbj6uJPoFuAo6Dih3kGT7pEdrWGA==",
+  "success": true,
+  "projectFilePath": "D:\\EventSourcing Sample\\EventSourcingSample\\EventSourcingSample.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ArchitectCat\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

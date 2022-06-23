@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EventSourcingSample", "EventSourcingSample\EventSourcingSample.fsproj", "{2250F267-0A20-45DA-8FE6-F039ACB2746B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2250F267-0A20-45DA-8FE6-F039ACB2746B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2250F267-0A20-45DA-8FE6-F039ACB2746B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2250F267-0A20-45DA-8FE6-F039ACB2746B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2250F267-0A20-45DA-8FE6-F039ACB2746B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

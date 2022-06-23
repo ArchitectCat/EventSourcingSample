@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\EventSourcing Sample\\EventSourcing Sample\\EventSourcing Sample.fsproj": {}
+  },
+  "projects": {
+    "D:\\EventSourcing Sample\\EventSourcing Sample\\EventSourcing Sample.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\EventSourcing Sample\\EventSourcing Sample\\EventSourcing Sample.fsproj",
+        "projectName": "EventSourcing Sample",
+        "projectPath": "D:\\EventSourcing Sample\\EventSourcing Sample\\EventSourcing Sample.fsproj",
+        "packagesPath": "C:\\Users\\ArchitectCat\\.nuget\\packages\\",
+        "outputPath": "D:\\EventSourcing Sample\\EventSourcing Sample\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ArchitectCat\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.1, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
