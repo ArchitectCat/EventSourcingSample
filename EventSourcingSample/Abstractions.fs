@@ -1,12 +1,21 @@
 ﻿namespace EventSourcingSample
 
-type ICommand = interface end
-type IEvent = interface end
+open System
+
+[<Interface>]
+type ICommand =
+    abstract member CreatedDate : DateTimeOffset with get, set
+    abstract member ProcessedDate : DateTimeOffset option with get, set
+   
+[<Interface>] 
+type IEvent =
+    abstract member CreatedDate : DateTimeOffset with get, set
+    abstract member ProcessedDate : DateTimeOffset option with get, set
 
 [<Interface>]
 type ICommandHandler<'TState> =
     abstract member Handle : state: 'TState -> command: ICommand -> IEvent list
-    
+        
 [<Interface>]
 type IEventHandler<'TState> =
     abstract member Handle : state: 'TState -> event: IEvent -> 'TState
